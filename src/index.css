@@ -1,0 +1,24 @@
+body{
+  background-image: url('assets/background_pic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+.clock-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  margin-top: 250px;
+}
+.clock{
+  display: flex;
+  text-align: center;
+  font-size: 5rem;
+  color: red;
+  justify-content: center;
+  font-weight: bold;
+  font-family: monospace;
+}
